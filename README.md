@@ -1,4 +1,4 @@
-# MLT-project
+# Conditional Generative Adversarial Nets in Painting Artwork
 
 Organización del proyecto:
 
