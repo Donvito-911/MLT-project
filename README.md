@@ -16,3 +16,6 @@ Se congelaron las capas de más bajo nivel y se agregaron dos capas extra para c
 de ArtUs.
 
 5. <strong>checkpoints/</strong> En esta carpeta están guardados todos los checkpoints del entrenamiento de los modelos 2-4. 
+
+
+Los modelos fueron entrenados entre Colab y el ambiente de Nvidia (ambos con una GPU T4). 
