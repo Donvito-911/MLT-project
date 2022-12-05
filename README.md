@@ -17,5 +17,9 @@ de ArtUs.
 
 5. <strong>checkpoints/</strong> En esta carpeta están guardados todos los checkpoints del entrenamiento de los modelos 2-4. 
 
-
 Los modelos fueron entrenados entre Colab y el ambiente de Nvidia (ambos con una GPU T4). 
+
+# Despliegue de la aplicación
+El archivo <strong>app.ipynb</strong> es un notebook que contiene ambos modelos y además una aplicación local y remota en Gradio. Esta aplicación permite escoger entre los 3 tipos de arte que utilizamos (abstracto, islámico y geométrico) y además el tipo de modelo: "Scratch Model" hace referencia al modelo entrenado desde cero y "Transfer-learning model" hace referencia al modelo que fue además pre-entrenado con el dataset de CIFAR10.
+
+En este link (https://6e8eb49350d8db91.gradio.app/) se encuentra la aplicacón desplegada en remoto hasta el 6 de diciembre.
